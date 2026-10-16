@@ -1,0 +1,6 @@
+
+<!-- commit 2: circuit: add initial ESP32 DevKit block definition in diagram.json -->
+{
+  "version": 1,
+  "parts": ["esp32"]
+}
