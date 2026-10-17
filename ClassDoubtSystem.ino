@@ -8,3 +8,5 @@
 /* commit 11: firmware: add startup buzzer self-test beep (1000 Hz, 300 ms) */
 
 /* commit 15: firmware: initialize subject labels and counter registers */
+
+/* commit 16: firmware: add alert(subject) routine driving respective GPIO LED */
