@@ -4,3 +4,5 @@
   "version": 1,
   "parts": ["esp32"]
 }
+
+<!-- commit 7: circuit: add 4 tactile pushbutton definitions to diagram.json -->
