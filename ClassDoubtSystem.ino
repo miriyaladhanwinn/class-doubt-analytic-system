@@ -6,3 +6,5 @@
 /* commit 10: firmware: configure INPUT_PULLUP and OUTPUT modes in setup() */
 
 /* commit 11: firmware: add startup buzzer self-test beep (1000 Hz, 300 ms) */
+
+/* commit 15: firmware: initialize subject labels and counter registers */
