@@ -4,3 +4,5 @@
 /* commit 6: firmware: define GPIO constants for subject buttons and LEDs */
 
 /* commit 10: firmware: configure INPUT_PULLUP and OUTPUT modes in setup() */
+
+/* commit 11: firmware: add startup buzzer self-test beep (1000 Hz, 300 ms) */
