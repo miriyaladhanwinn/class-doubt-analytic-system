@@ -8,3 +8,5 @@
 <!-- commit 7: circuit: add 4 tactile pushbutton definitions to diagram.json -->
 
 <!-- commit 12: circuit: configure pushbutton GPIO pin connections in diagram.json -->
+
+<!-- commit 17: circuit: wire pushbuttons to common ground rail in schematic -->
