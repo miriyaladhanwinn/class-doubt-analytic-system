@@ -12,3 +12,5 @@
 /* commit 16: firmware: add alert(subject) routine driving respective GPIO LED */
 
 /* commit 20: firmware: declare debounce state tracking arrays */
+
+/* commit 21: firmware: implement non-blocking millis() polling loop in loop() */
