@@ -10,3 +10,5 @@
 /* commit 15: firmware: initialize subject labels and counter registers */
 
 /* commit 16: firmware: add alert(subject) routine driving respective GPIO LED */
+
+/* commit 20: firmware: declare debounce state tracking arrays */
