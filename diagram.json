@@ -10,3 +10,5 @@
 <!-- commit 12: circuit: configure pushbutton GPIO pin connections in diagram.json -->
 
 <!-- commit 17: circuit: wire pushbuttons to common ground rail in schematic -->
+
+<!-- commit 22: circuit: add active piezo buzzer component on GPIO 2 -->
