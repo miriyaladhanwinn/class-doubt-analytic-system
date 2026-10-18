@@ -12,3 +12,5 @@
 <!-- commit 17: circuit: wire pushbuttons to common ground rail in schematic -->
 
 <!-- commit 22: circuit: add active piezo buzzer component on GPIO 2 -->
+
+<!-- commit 27: circuit: place 4 discrete color-coded LEDs on virtual breadboard -->
