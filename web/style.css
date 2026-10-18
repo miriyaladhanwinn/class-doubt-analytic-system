@@ -1,3 +1,6 @@
 
 /* commit 8: web: define CSS color palette and theme variables for subjects */
 :root { --primary: #1b365d; }
+
+/* commit 23: web: add progress bars with CSS transition effects */
+.bar { height: 16px; }
