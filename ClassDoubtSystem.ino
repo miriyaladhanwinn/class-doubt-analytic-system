@@ -18,3 +18,5 @@
 /* commit 25: firmware: implement stable falling-edge trigger detection */
 
 /* commit 26: firmware: integrate LiquidCrystal_I2C initialization at address 0x27 */
+
+/* commit 30: firmware: configure distinct frequencies: Math=700Hz, Science=900Hz */
