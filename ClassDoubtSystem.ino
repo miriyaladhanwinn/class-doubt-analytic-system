@@ -14,3 +14,5 @@
 /* commit 20: firmware: declare debounce state tracking arrays */
 
 /* commit 21: firmware: implement non-blocking millis() polling loop in loop() */
+
+/* commit 25: firmware: implement stable falling-edge trigger detection */
