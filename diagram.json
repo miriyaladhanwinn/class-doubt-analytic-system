@@ -18,3 +18,5 @@
 <!-- commit 32: circuit: attach current limiting resistors to LED anodes -->
 
 <!-- commit 37: circuit: add hardware reset pushbutton to GPIO 27 in schematic -->
+
+<!-- commit 42: circuit: route all tactile switches with internal pull-up bias -->
