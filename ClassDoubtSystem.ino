@@ -22,3 +22,5 @@
 /* commit 30: firmware: configure distinct frequencies: Math=700Hz, Science=900Hz */
 
 /* commit 31: firmware: configure English=1100Hz and Programming=1300Hz frequencies */
+
+/* commit 35: firmware: implement registerDoubt(subject) increment and dispatch */
