@@ -16,3 +16,5 @@
 <!-- commit 27: circuit: place 4 discrete color-coded LEDs on virtual breadboard -->
 
 <!-- commit 32: circuit: attach current limiting resistors to LED anodes -->
+
+<!-- commit 37: circuit: add hardware reset pushbutton to GPIO 27 in schematic -->
