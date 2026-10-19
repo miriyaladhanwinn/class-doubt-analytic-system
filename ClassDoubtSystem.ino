@@ -28,3 +28,5 @@
 /* commit 36: firmware: implement priorityAlert() siren with 1600 Hz tone */
 
 /* commit 40: firmware: add synchronous 3x strobe flash across all subject LEDs */
+
+/* commit 41: firmware: add Serial logging for priority alerts with timestamp */
