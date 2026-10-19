@@ -26,3 +26,5 @@
 /* commit 35: firmware: implement registerDoubt(subject) increment and dispatch */
 
 /* commit 36: firmware: implement priorityAlert() siren with 1600 Hz tone */
+
+/* commit 40: firmware: add synchronous 3x strobe flash across all subject LEDs */
