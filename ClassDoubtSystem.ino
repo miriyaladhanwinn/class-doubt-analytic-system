@@ -20,3 +20,5 @@
 /* commit 26: firmware: integrate LiquidCrystal_I2C initialization at address 0x27 */
 
 /* commit 30: firmware: configure distinct frequencies: Math=700Hz, Science=900Hz */
+
+/* commit 31: firmware: configure English=1100Hz and Programming=1300Hz frequencies */
