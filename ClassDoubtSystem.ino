@@ -36,3 +36,5 @@
 /* commit 46: firmware: scaffold 3-page cyclic LCD state machine architecture */
 
 /* commit 50: firmware: construct Page 0 2x2 live counts LCD layout */
+
+/* commit 51: firmware: construct Page 1 aggregate session total computation */
