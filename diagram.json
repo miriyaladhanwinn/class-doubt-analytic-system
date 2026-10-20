@@ -20,3 +20,5 @@
 <!-- commit 37: circuit: add hardware reset pushbutton to GPIO 27 in schematic -->
 
 <!-- commit 42: circuit: route all tactile switches with internal pull-up bias -->
+
+<!-- commit 47: circuit: add 16x2 I2C LCD component (PCF8574) in diagram.json -->
