@@ -4,3 +4,6 @@
 
 /* commit 23: web: add progress bars with CSS transition effects */
 .bar { height: 16px; }
+
+/* commit 43: web: style live cards with subtle gradients and drop shadows */
+.card { border-radius: 8px; }
