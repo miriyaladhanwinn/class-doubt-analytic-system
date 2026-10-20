@@ -7,3 +7,6 @@
 
 /* commit 43: web: style live cards with subtle gradients and drop shadows */
 .card { border-radius: 8px; }
+
+/* commit 53: web: add visual siren strobe animation on priority alert event */
+@keyframes strobe {}
