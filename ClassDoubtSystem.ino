@@ -34,3 +34,5 @@
 /* commit 45: firmware: implement getTotal() aggregate doubt calculator */
 
 /* commit 46: firmware: scaffold 3-page cyclic LCD state machine architecture */
+
+/* commit 50: firmware: construct Page 0 2x2 live counts LCD layout */
