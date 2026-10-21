@@ -44,3 +44,5 @@
 /* commit 56: firmware: construct Page 2 top-doubt subject display */
 
 /* commit 60: firmware: add event-driven LCD interrupt confirmation screens */
+
+/* commit 61: firmware: initialize WiFi station mode and connection retry loop */
