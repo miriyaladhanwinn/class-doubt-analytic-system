@@ -26,3 +26,5 @@
 <!-- commit 52: circuit: wire I2C bus SDA (GPIO 21) and SCL (GPIO 22) to LCD backpack -->
 
 <!-- commit 57: circuit: route 5V power rail to LCD backlight and piezo buzzer -->
+
+<!-- commit 62: circuit: connect 3.3V regulated rail to ESP32 VCC and LEDs -->
