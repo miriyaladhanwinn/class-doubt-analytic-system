@@ -40,3 +40,5 @@
 /* commit 51: firmware: construct Page 1 aggregate session total computation */
 
 /* commit 55: firmware: implement highestSubject() argmax mode evaluator */
+
+/* commit 56: firmware: construct Page 2 top-doubt subject display */
