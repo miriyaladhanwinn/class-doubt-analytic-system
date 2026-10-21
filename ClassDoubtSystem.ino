@@ -46,3 +46,5 @@
 /* commit 60: firmware: add event-driven LCD interrupt confirmation screens */
 
 /* commit 61: firmware: initialize WiFi station mode and connection retry loop */
+
+/* commit 65: firmware: mount WebServer on port 80 and register URI handlers */
