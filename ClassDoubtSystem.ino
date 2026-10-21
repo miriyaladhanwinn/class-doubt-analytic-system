@@ -48,3 +48,5 @@
 /* commit 61: firmware: initialize WiFi station mode and connection retry loop */
 
 /* commit 65: firmware: mount WebServer on port 80 and register URI handlers */
+
+/* commit 66: firmware: implement GET / route serving the live responsive dashboard */
