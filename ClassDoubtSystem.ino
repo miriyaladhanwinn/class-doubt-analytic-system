@@ -42,3 +42,5 @@
 /* commit 55: firmware: implement highestSubject() argmax mode evaluator */
 
 /* commit 56: firmware: construct Page 2 top-doubt subject display */
+
+/* commit 60: firmware: add event-driven LCD interrupt confirmation screens */
