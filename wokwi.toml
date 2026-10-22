@@ -2,3 +2,5 @@
 <!-- commit 72: circuit: create wokwi.toml project manifest and simulation settings -->
 [wokwi]
 version = 1
+
+<!-- commit 77: circuit: add WiFi simulator configuration parameters in wokwi.toml -->
