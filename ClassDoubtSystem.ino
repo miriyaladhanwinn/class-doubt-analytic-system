@@ -56,3 +56,5 @@
 /* commit 71: firmware: implement POST /reset endpoint clearing session counts */
 
 /* commit 75: storage: initialize ESP32 Preferences NVS library under 'doubts' namespace */
+
+/* commit 76: storage: implement saveCounts() committing each press into NVS flash */
