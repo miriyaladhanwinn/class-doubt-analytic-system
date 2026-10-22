@@ -10,3 +10,6 @@
 
 /* commit 53: web: add visual siren strobe animation on priority alert event */
 @keyframes strobe {}
+
+/* commit 68: web: add responsive flexbox grid layout for smartboard displays */
+.grid { display: flex; }
