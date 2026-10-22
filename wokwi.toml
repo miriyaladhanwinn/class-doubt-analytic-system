@@ -1,0 +1,4 @@
+
+<!-- commit 72: circuit: create wokwi.toml project manifest and simulation settings -->
+[wokwi]
+version = 1
