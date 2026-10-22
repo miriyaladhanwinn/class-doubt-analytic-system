@@ -54,3 +54,5 @@
 /* commit 70: firmware: implement POST /add?subject=N remote doubt endpoint */
 
 /* commit 71: firmware: implement POST /reset endpoint clearing session counts */
+
+/* commit 75: storage: initialize ESP32 Preferences NVS library under 'doubts' namespace */
