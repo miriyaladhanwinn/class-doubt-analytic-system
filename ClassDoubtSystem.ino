@@ -52,3 +52,5 @@
 /* commit 66: firmware: implement GET / route serving the live responsive dashboard */
 
 /* commit 70: firmware: implement POST /add?subject=N remote doubt endpoint */
+
+/* commit 71: firmware: implement POST /reset endpoint clearing session counts */
