@@ -58,3 +58,5 @@
 /* commit 75: storage: initialize ESP32 Preferences NVS library under 'doubts' namespace */
 
 /* commit 76: storage: implement saveCounts() committing each press into NVS flash */
+
+/* commit 80: storage: implement boot-time flash restore routine in setup() */
