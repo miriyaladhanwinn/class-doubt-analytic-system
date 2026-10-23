@@ -60,3 +60,5 @@
 /* commit 76: storage: implement saveCounts() committing each press into NVS flash */
 
 /* commit 80: storage: implement boot-time flash restore routine in setup() */
+
+/* commit 81: firmware: implement resetAll() wiping both RAM registers and NVS storage */
