@@ -30,3 +30,5 @@
 <!-- commit 62: circuit: connect 3.3V regulated rail to ESP32 VCC and LEDs -->
 
 <!-- commit 67: circuit: optimize layout coordinates of switches on virtual desk -->
+
+<!-- commit 82: circuit: test all LED current limits during simultaneous 4-LED strobe -->
