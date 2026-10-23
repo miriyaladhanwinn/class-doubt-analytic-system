@@ -629,3 +629,4 @@ loadData();
 
   server.send(200, "text/html", html);
 }
+/* commit 88: web: implement GET /data JSON endpoint serialization */
