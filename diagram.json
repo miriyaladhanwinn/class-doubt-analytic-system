@@ -34,3 +34,5 @@
 <!-- commit 82: circuit: test all LED current limits during simultaneous 4-LED strobe -->
 
 <!-- commit 87: circuit: verify pull-up state stability on GPIO 27 reset switch -->
+
+<!-- commit 92: circuit: verify PCF8574 address 0x27 in LiquidCrystal_I2C driver -->
