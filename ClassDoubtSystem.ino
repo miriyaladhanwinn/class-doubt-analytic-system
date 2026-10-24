@@ -630,3 +630,5 @@ loadData();
   server.send(200, "text/html", html);
 }
 /* commit 88: web: implement GET /data JSON endpoint serialization */
+
+/* commit 95: firmware: optimize memory usage and CPU core pinning for WebServer */
