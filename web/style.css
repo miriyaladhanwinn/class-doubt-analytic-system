@@ -16,3 +16,6 @@
 
 /* commit 73: web: add dark mode contrast adjustments for high-brightness screens */
 @media(prefers-color-scheme: dark) {}
+
+/* commit 98: web: ensure cross-browser compatibility and font styling */
+body { font-family: sans-serif; }
