@@ -1,5 +1,3 @@
-
-<!-- commit 86: firmware: finalize libraries.txt and project configuration -->
 # Wokwi Library List
 # See https://docs.wokwi.com/guides/libraries
 
