@@ -36,3 +36,280 @@
 <!-- commit 87: circuit: verify pull-up state stability on GPIO 27 reset switch -->
 
 <!-- commit 92: circuit: verify PCF8574 address 0x27 in LiquidCrystal_I2C driver -->
+
+<!-- commit 97: circuit: finalize complete 26-wire schematic interconnection list -->
+{
+  "version": 1,
+  "author": "ChatGPT",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": 100,
+      "left": 50,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": -100,
+      "left": 10,
+      "attrs": {
+        "pins": "i2c"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "mathBtn",
+      "top": 60,
+      "left": 340,
+      "attrs": {
+        "color": "green",
+        "xray": "1"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "scienceBtn",
+      "top": 130,
+      "left": 340,
+      "attrs": {
+        "color": "blue",
+        "xray": "1"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "englishBtn",
+      "top": 200,
+      "left": 340,
+      "attrs": {
+        "color": "yellow",
+        "xray": "1"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "programBtn",
+      "top": 270,
+      "left": 340,
+      "attrs": {
+        "color": "red",
+        "xray": "1"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "resetBtn",
+      "top": 340,
+      "left": 340,
+      "attrs": {
+        "color": "black",
+        "xray": "1"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "mathLed",
+      "top": 60,
+      "left": 530,
+      "attrs": {
+        "color": "green"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "scienceLed",
+      "top": 130,
+      "left": 530,
+      "attrs": {
+        "color": "blue"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "englishLed",
+      "top": 200,
+      "left": 530,
+      "attrs": {
+        "color": "yellow"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "programLed",
+      "top": 270,
+      "left": 530,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "buzzer1",
+      "top": 410,
+      "left": 340,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [
+      "esp:TX",
+      "$serialMonitor:RX",
+      "",
+      []
+    ],
+    [
+      "esp:RX",
+      "$serialMonitor:TX",
+      "",
+      []
+    ],
+    [
+      "lcd1:VCC",
+      "esp:3V3",
+      "red",
+      []
+    ],
+    [
+      "lcd1:GND",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "lcd1:SDA",
+      "esp:21",
+      "green",
+      []
+    ],
+    [
+      "lcd1:SCL",
+      "esp:22",
+      "blue",
+      []
+    ],
+    [
+      "esp:18",
+      "mathBtn:1.l",
+      "green",
+      []
+    ],
+    [
+      "mathBtn:2.r",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "esp:19",
+      "scienceBtn:1.l",
+      "blue",
+      []
+    ],
+    [
+      "scienceBtn:2.r",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "esp:5",
+      "englishBtn:1.l",
+      "yellow",
+      []
+    ],
+    [
+      "englishBtn:2.r",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "esp:17",
+      "programBtn:1.l",
+      "red",
+      []
+    ],
+    [
+      "programBtn:2.r",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "esp:27",
+      "resetBtn:1.l",
+      "gray",
+      []
+    ],
+    [
+      "resetBtn:2.r",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "esp:4",
+      "mathLed:A",
+      "green",
+      []
+    ],
+    [
+      "mathLed:C",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "esp:16",
+      "scienceLed:A",
+      "blue",
+      []
+    ],
+    [
+      "scienceLed:C",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "esp:25",
+      "englishLed:A",
+      "yellow",
+      []
+    ],
+    [
+      "englishLed:C",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "esp:26",
+      "programLed:A",
+      "red",
+      []
+    ],
+    [
+      "programLed:C",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "esp:2",
+      "buzzer1:2",
+      "green",
+      []
+    ],
+    [
+      "buzzer1:1",
+      "esp:GND.1",
+      "black",
+      []
+    ]
+  ],
+  "dependencies": {}
+}
